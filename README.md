@@ -9,8 +9,8 @@ See [iOS SDK](https://github.com/segmentio/analytics-ios) and [Android SDK](http
 ## iOS Installation
 1. Download and install the npm package by running `npm install --save react-native-analytics`
 2. In your Podfile, add `pod "Analytics"` to your project.
-3. Inside Xcode (make sure you've opened your `.xcworkspace` file), go to the project navigator and right click `Libraries` -> `Add Files to [your project's name]`.
-4. Go to `node_modules/react-native-analytics/ios` -> and choose the `RNAnalytics` folder.
+3. Inside Xcode (make sure you've opened your `.xcworkspace` file), go to the project navigator and right click your project -> `Add Files to [your project's name]`.
+4. Go to `node_modules/react-native-analytics/ios/RNAnalytics` -> select both files inside and add them to your project.
 5. Make sure your project links to *libAnalytics.a* (The libraries should be listed under "Build Phases -> Link Binary With Libraries". Should happen automatically if you use cocoapods).
 
 ## Android Installation
